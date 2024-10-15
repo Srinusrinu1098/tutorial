@@ -1,1 +1,38 @@
-/* Write your CSS code here */
+.main-flex {
+  display: flex;
+}
+.image {
+  height: 140px;
+  width: 250px;
+  border-radius: 10px;
+}
+.heading {
+  font-size: 14px;
+  color: #d3d3d3;
+}
+.para {
+  font-size: 14px;
+}
+.author-flex {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  height: 30px;
+  border-radius: 50%;
+}
+.author-name {
+  font-size: 14px;
+  padding-left: 10px;
+  color: #d3d3d3;
+}
+.bottom-flex {
+  padding-left: 10px;
+}
+.li {
+  border: 1px solid #d3d3d3;
+  list-style: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
